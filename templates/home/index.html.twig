@@ -1,1 +1,8 @@
-<h1>Hello, {{ name }}! Welcome to Symfony Bootcamp!</h1>
+{% extends "base.html.twig" %}
+{% block title %}Home - Symfony Bootcamp
+{% endblock %}
+
+{% block body %}
+	<h1>Hello,
+		{{ name }}! Welcome to Symfony Bootcamp!</h1>
+{% endblock %}
